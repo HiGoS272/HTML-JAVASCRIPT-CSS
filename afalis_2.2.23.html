@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2/2/2023</title>
+
+<script>
+
+// Μόλις Φτάσει 10 θα εμφανήση ενα Alert και θα λεει END.
+
+  let x = 1;
+
+function myFuction1(){
+
+  
+ const z = x++;
+  
+
+  if (z > 11)
+    alert("END!!!");
+
+  if (x<=11) 
+
+  document.getElementById("demo").innerHTML = z;
+}
+
+// Άμα το Y είναι μεγαλύτερο ή ίσο με το 90 να κάνει τη πράξει 100*3
+// Άμα το Y είναι μικρότερο άπο το 90 να εμφάνηση με ALERT τη λέξη wrong.
+  function myFuction2(){
+ 
+    var y = 100;
+    const m = y*3;
+
+
+    if (y>=90)
+      alert(m);  
+  
+
+  }
+
+  function myFuction3(){
+
+    var y = 80;
+
+    if (y<90)
+       alert("wrong");
+    
+  }
+
+ function myFuction4(p1,p2){
+
+    let cm = 180;
+    const inches = 0.39;
+
+    return p1 * p2;
+    console.log(result)
+
+ }
+
+  document.getElementById("demo3").innerHTML = myFuction4(cm , inches);
+
+</script>
+
+</head>
+
+
+<body style="background-color:rgb(196, 164, 164);">
+
+  <h1 style="color:blueviolet;"> HTML + JAVASCRIPT with IF and ALERT: </h1>
+  <br>
+    
+    <p id = "demo"></p>
+    <p id = "demo2"></p>
+    <p id = "demo3"></p>
+
+    <h3> With Alert: </h3>
+    <button style=color:red; onclick="myFuction1()"> If number reach 10 Show Alert:</button><br>
+    <h3> With If: </h3>
+  <h5> 1: Y=100 </h5>
+    <button style=color:blue; onclick="myFuction2()"> If Y greater than 90 INPUT 100*3 with alert : </button> <br>
+  <h5> 1: Y=80 </h5>
+    <button style=color:green; onclick="myFuction3()"> If Y lesser than 90 INPUT Wrong with alert : </button> <br>
+  <h5> 3: 1.80cm - Inches?  </h5>
+    <button style=color:tomato; onclick="myFuction4()"> Convert Cm To Inches :</button>
+    
+<br> <br>
+
+<!--  Πληροφορίες για μένα. -->
+
+<h2> Informations: </h2>
+
+<form action="/action_page.php">
+
+  <label for="fname">My Name:</label><br>
+
+  <input type="text" id="fname" name="fname" value="Panos" readonly ><br>
+
+  <label for="lname">My LastName:</label><br>
+  <input type="text" id="lname" name="lname" value="Afalis" readonly ><br>
+
+  <label for="lname">My Age:</label><br>
+
+  <input type="text" id="lname" name="lname" value="16-17" readonly ><br>
+
+  <label for="lname">My Country:</label><br>
+  <input type="text" id="lname" name="lname" value="Greece" readonly ><br>
+
+  <label for="lname">My City:</label><br>
+
+  <input type="text" id="lname" name="lname" value="Thessaloniki" readonly ><br>
+  
+</form> 
+
+<br> <br>  <br>  <br> 
+
+<!-- Το GitGub μου. -->
+
+<li> <a href="https://github.com/HiGoS272"> My GitGub &#169	</a> </li>
+
+  <br>
+
+  <!-- Links που βοηθήθηκα. -->
+
+  <li> <a href="https://www.w3schools.com/"> W3School &#8592	</a> </li>
+<br>  
+<li> <a href=" https://www.youtube.com/watch?v=IsG4Xd6LlsM"> If and Else Video Help	 &#8617 </a> </li>
+
+</body>
+</html>
